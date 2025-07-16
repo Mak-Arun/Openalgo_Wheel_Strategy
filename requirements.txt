@@ -1,0 +1,6 @@
+openalgo
+sqlalchemy
+apscheduler
+python-dotenv
+requests
+python-dateutil
