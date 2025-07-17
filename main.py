@@ -24,7 +24,7 @@ def schedule_for_all():
 if __name__ == '__main__':
     print("🔁 OpenAlgo Python Bot is running.")
     scheduler = BackgroundScheduler(timezone="Asia/Kolkata")
-    scheduler.add_job(schedule_for_all, 'cron', day_of_week='mon-fri', hour=9, minute=45)
+    scheduler.add_job(schedule_for_all, 'cron', day_of_week='mon-fri', hour=9, minute=30)
     scheduler.start()
 
     try:
